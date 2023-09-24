@@ -1,0 +1,35 @@
+[{
+  "_id":  "644929b37d64118ac04d821f",
+  "projectId": "642cfe6a174a38588fec83c2",
+  "procedure": "subscriber/EBAbstractSubscriber.register()Ljava/lang/Integer;",
+  "relation": {
+    "_id": "64492847d4fefde183ff4b3c",
+    "source": "subscriber/EBAbstractSubscriber.register()Ljava/lang/Integer;",
+    "target": "java/rmi/registry/Registry.lookup(Ljava/lang/String;)Ljava/rmi/Remote;",
+    "projectId": "642cfe6a174a38588fec83c2"
+  },
+  "connectorType": "Network",
+  "sourceComponentIdentifierSchema": [
+    "process_id"
+  ],
+  "targetComponentIdentifierSchema": [
+    "registry_name"
+  ]
+},{
+  "_id":  "644929ee7d64118ac04d8220",
+  "projectId": "642cfe6a174a38588fec83c2",
+  "procedure": "subscriber/template/control/gui/ControlConsole.<init>(Lsubscriber/EBAbstractSubscriber;)V",
+  "relation": {
+    "_id": "64492847d4fefde183ff4bec",
+    "source": "subscriber/template/control/gui/ControlConsole.<init>(Lsubscriber/EBAbstractSubscriber;)V",
+    "target": "java/io/File.<init>(Ljava/lang/String;)V",
+    "projectId": "642cfe6a174a38588fec83c2"
+  },
+  "connectorType": "File",
+  "sourceComponentIdentifierSchema": [
+    "process_id"
+  ],
+  "targetComponentIdentifierSchema": [
+    "file_path"
+  ]
+}]

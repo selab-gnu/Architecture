@@ -1,0 +1,1632 @@
+[
+  {
+    "id": "6475aac315d687cc546c5e6e_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-trade-agent/contracts/TDCRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6e_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-trade-agent/contracts/TDCToken.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6e_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-trade-agent/contracts/TDCDataRegistry.json"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_3",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25327",
+      "url": "http://localhost:8090"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_4",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e69_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/index.ts_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/firebase-adminsdk.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCToken.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_3",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_4",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataNFT.json"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_5",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_6",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_7",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e62_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts_8",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "./encryption/bins/para_key_gen"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e69_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/index.ts_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/firebase-adminsdk.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCToken.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_3",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_4",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataNFT.json"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_5",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_6",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_7",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e62_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts_8",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "file_path": "./encryption/bins/para_key_gen"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e69_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/index.ts_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/firebase-adminsdk.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCToken.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_3",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataRegistry.json"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6d_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_4",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/contracts/TDCDataNFT.json"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_5",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_6",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_7",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e62_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts_8",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "file_path": "./encryption/bins/para_key_gen"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_9",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_10",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_5",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25327",
+      "url": "http://localhost:8090"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_11",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_12",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_13",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_14",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_15",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_16",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_17",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_18",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_19",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_20",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_21",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_22",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_9",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_23",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_24",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_25",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_10",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_11",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_12",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_6",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_7",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_8",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25327",
+      "url": "http://localhost:8090"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_26",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_27",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_13",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_28",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_14",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_15",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_16",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_17",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_18",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_19",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_20",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_21",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_22",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_23",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_24",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_9",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_25",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_26",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "contract": "dataregistry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_29",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_30",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_31",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_32",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_27",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_28",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_29",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e63_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_10",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "file_path": "./sender",
+      "process_id": "27730"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_33",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_34",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_35",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_36",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_37",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_38",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_39",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_40",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_41",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_42",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e74_dotls/internal/sender.getDDCProofRecord_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "27730",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/localhost_6001/ddcProof_current"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e74_dotls/internal/sender.getDDCProofRecord_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "27730",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/localhost_6001/ddcProof_prev"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e75_dotls/internal/sender.getCertPool_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "27730",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/rootCACert.pem"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e6f_dotls/internal/sender.handleRequest_3",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27730",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "url": "https://localhost:6001"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_11",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_12",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_9",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_13",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_43",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_10",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_11",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25327",
+      "url": "http://localhost:8090"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_30",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_12",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8090",
+      "process_id": "25327"
+    },
+    "target_component_values": {
+      "contract": "token"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_44",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_31",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_32",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8082",
+      "process_id": "27267"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_33",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_34",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27267",
+      "url": "http://localhost:8082"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_45",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa8e15d687cc546c5e68_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/firebase.ts_46",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "firebase"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_47",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_48",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_49",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e63_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_50",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "process_id": "27811",
+      "file_path": "./sender"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_14",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "contract": "registry"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_15",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_16",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6b_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts_17",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/encryption/user-data/did_tdc_9332f7875f93493a95b60bc7902e4d18/trades/RkPf09yJKKRyT4GGHScth/tdc_message.crs"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6b_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts_18",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/encryption/user-data/did_tdc_9332f7875f93493a95b60bc7902e4d18/trades/RkPf09yJKKRyT4GGHScth/ACC_RESP_DU.crs"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6b_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts_19",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/encryption/user-data/did_tdc_9332f7875f93493a95b60bc7902e4d18/trades/RkPf09yJKKRyT4GGHScth/public_parameters.crs"
+    }
+  },
+  {
+    "id": "6475aac315d687cc546c5e6b_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts_20",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/tdc-user-agent/encryption/user-data/did_tdc_9332f7875f93493a95b60bc7902e4d18/trades/RkPf09yJKKRyT4GGHScth/input_keyword.crs"
+    }
+  },
+  {
+    "id": "6475a95315d687cc546c5e62_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts_21",
+    "connector_type": "Standard IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "file_path": "./encryption/bins/data_verif"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e74_dotls/internal/sender.getDDCProofRecord_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "file_path": "./sender",
+      "process_id": "27811"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/localhost_6000/ddcProof_current"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e74_dotls/internal/sender.getDDCProofRecord_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "27811",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/localhost_6000/ddcProof_prev"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e75_dotls/internal/sender.getCertPool_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "file_path": "./sender",
+      "process_id": "27811"
+    },
+    "target_component_values": {
+      "file_path": "/home/bigpicture/tdc-sarex/dns/rootCACert.pem"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e6f_dotls/internal/sender.handleRequest_3",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "27811",
+      "file_path": "./sender"
+    },
+    "target_component_values": {
+      "url": "https://localhost:6000"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_51",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8081",
+      "process_id": "26602"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_52",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_53",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_54",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "26602",
+      "url": "http://localhost:8081"
+    },
+    "target_component_values": {
+      "contract": "datanft"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e67_/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts_13",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25327",
+      "url": "http://localhost:8090"
+    },
+    "target_component_values": {
+      "contract": "token"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_22",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "http://localhost:8080",
+      "process_id": "25908"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_23",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475aa0b15d687cc546c5e66_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts_24",
+    "connector_type": "Blockchain IO",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "contract": "token"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e71_/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts_25",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "process_id": "25908",
+      "url": "http://localhost:8080"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8090"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "24635",
+      "url": "https://localhost:6001"
+    },
+    "target_component_values": {
+      "file_path": "rootCACert.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "https://localhost:6001",
+      "process_id": "24635"
+    },
+    "target_component_values": {
+      "file_path": "rootCAKey.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "https://localhost:6001",
+      "process_id": "24635"
+    },
+    "target_component_values": {
+      "file_path": "localDomainOwnerCert2.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_3",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "24635",
+      "url": "https://localhost:6001"
+    },
+    "target_component_values": {
+      "file_path": "localDomainOwnerKey2.pem"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e70_dotls/internal/server.proxyHandler_4",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "https://localhost:6001",
+      "process_id": "24635"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8081"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_0",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "https://localhost:6000",
+      "process_id": "24523"
+    },
+    "target_component_values": {
+      "file_path": "rootCACert.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_1",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "https://localhost:6000",
+      "process_id": "24523"
+    },
+    "target_component_values": {
+      "file_path": "rootCAKey.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_2",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "process_id": "24523",
+      "url": "https://localhost:6000"
+    },
+    "target_component_values": {
+      "file_path": "localDomainOwnerCert1.pem"
+    }
+  },
+  {
+    "id": "6475ab4a15d687cc546c5e73_dotls/internal/pkg/cert.readAndDecodePEM_3",
+    "connector_type": "File IO",
+    "source_component_values": {
+      "url": "https://localhost:6000",
+      "process_id": "24523"
+    },
+    "target_component_values": {
+      "file_path": "localDomainOwnerKey1.pem"
+    }
+  },
+  {
+    "id": "6475aaf215d687cc546c5e70_dotls/internal/server.proxyHandler_4",
+    "connector_type": "HTTP",
+    "source_component_values": {
+      "url": "https://localhost:6000",
+      "process_id": "24523"
+    },
+    "target_component_values": {
+      "url": "http://localhost:8080"
+    }
+  }
+]

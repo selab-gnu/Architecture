@@ -1,0 +1,524 @@
+[
+  {
+    "_id": {
+      "$oid": "6475a8e015d687cc546c5e60"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/db/index.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669604b",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/db/index.ts",
+      "target": "@prisma/client/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "DB Connection",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475a8e015d687cc546c5e61"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/db.ts",
+    "relation": {
+      "_id": "6474b10ffbf470fdf9ce6c14",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/db.ts",
+      "target": "@prisma/client/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "DB Connection",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475a95315d687cc546c5e62"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696050",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/bin.ts",
+      "target": "child_process",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "Standard IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path",
+      "process_id"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475a95315d687cc546c5e63"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669606f",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts",
+      "target": "child_process",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "Standard IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path",
+      "process_id"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475a97815d687cc546c5e64"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/config.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669604a",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/config.ts",
+      "target": "dotenv/lib/main.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475a97815d687cc546c5e65"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/config.ts",
+    "relation": {
+      "_id": "6474b10ffbf470fdf9ce6c11",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/config.ts",
+      "target": "dotenv/lib/main.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aa0b15d687cc546c5e66"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669605b",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts",
+      "target": "ethers/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "Blockchain IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "contract"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aa0b15d687cc546c5e67"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts",
+    "relation": {
+      "_id": "6474b10ffbf470fdf9ce6c15",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts",
+      "target": "ethers/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "Blockchain IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "contract"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aa8e15d687cc546c5e68"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/firebase.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696068",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/firebase.ts",
+      "target": "firebase-admin/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "HTTP",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e69"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/index.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696069",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/index.ts",
+      "target": "firebase-admin/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e6a"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/access_response.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669604e",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/access_response.ts",
+      "target": "fs",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e6b"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696055",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/file.ts",
+      "target": "fs",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e6c"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/user-data.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696059",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/encryption/user-data.ts",
+      "target": "fs",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e6d"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b988669605c",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/eth/contract.ts",
+      "target": "fs",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aac315d687cc546c5e6e"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts",
+    "relation": {
+      "_id": "6474b10ffbf470fdf9ce6c16",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/eth/contract.ts",
+      "target": "fs",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aaf215d687cc546c5e6f"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/sender.handleRequest",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d690",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/sender.handleRequest",
+      "target": "net/http.Do"
+    },
+    "connectorType": "HTTP",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aaf215d687cc546c5e70"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/server.proxyHandler",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d691",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/server.proxyHandler",
+      "target": "net/http.Do"
+    },
+    "connectorType": "HTTP",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aaf215d687cc546c5e71"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts",
+    "relation": {
+      "_id": "6474b0e31bfe9b9886696070",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-user-agent/src/utils/agent.ts",
+      "target": "node-fetch/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "HTTP",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475aaf215d687cc546c5e72"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/routes/seller/read-seller-datalist.ts",
+    "relation": {
+      "_id": "6474b10ffbf470fdf9ce6c1f",
+      "source": "/Users/byron1st/Workspace/TDC/2021/tdc-trade-agent/src/routes/seller/read-seller-datalist.ts",
+      "target": "node-fetch/lib/index.js",
+      "projectId": "6474ac89f610b790d4a64131"
+    },
+    "connectorType": "HTTP",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "url"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e73"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/pkg/cert.readAndDecodePEM",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68b",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/pkg/cert.readAndDecodePEM",
+      "target": "os.ReadFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e74"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/sender.getDDCProofRecord",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68e",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/sender.getDDCProofRecord",
+      "target": "os.ReadFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e75"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/sender.getCertPool",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68f",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/sender.getCertPool",
+      "target": "os.ReadFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e76"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/pkg/cert.saveDDCJsonOnDisk",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d689",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/pkg/cert.saveDDCJsonOnDisk",
+      "target": "os.WriteFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e77"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/pkg/cert.savePrivateKeyOnDisk",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68a",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/pkg/cert.savePrivateKeyOnDisk",
+      "target": "os.WriteFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e78"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/pkg/cert.saveCert",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68c",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/pkg/cert.saveCert",
+      "target": "os.WriteFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6475ab4a15d687cc546c5e79"
+    },
+    "projectId": "6474ac89f610b790d4a64131",
+    "procedure": "dotls/internal/pkg/cert.savePrivateKey",
+    "relation": {
+      "_id": "6475a725fc47bd6dbfc6d68d",
+      "projectId": "6474ac89f610b790d4a64131",
+      "source": "dotls/internal/pkg/cert.savePrivateKey",
+      "target": "os.WriteFile"
+    },
+    "connectorType": "File IO",
+    "sourceComponentIdentifierSchema": [
+      "process_id"
+    ],
+    "targetComponentIdentifierSchema": [
+      "file_path"
+    ]
+  }
+]

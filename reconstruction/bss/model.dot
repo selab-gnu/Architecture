@@ -1,0 +1,13 @@
+digraph model {
+    4xojoTE1Sw[label="process_id:10012\n"]
+    YcdPrGD9LC[label="file_path:logo_nipa.jpg\n"]
+    085dZpziV1[label="registry_name:Event_Bus\n"]
+    Ftqy7sYBad[label="process_id:10014\n"]
+    SKrHW6TRjJ[label="process_id:10016\n"]
+    4Dcju0tEn7[label="process_id:10018\n"]
+    4xojoTE1Sw -> YcdPrGD9LC [label=File]
+    4xojoTE1Sw -> 085dZpziV1 [label=Network]
+    Ftqy7sYBad -> 085dZpziV1 [label=Network]
+    SKrHW6TRjJ -> 085dZpziV1 [label=Network]
+    4Dcju0tEn7 -> 085dZpziV1 [label=Network]
+}
