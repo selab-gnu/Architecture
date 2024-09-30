@@ -136,4 +136,4 @@ Now, call relations are saved in the CBSAR Database. If you use [MongoDB Compass
 
 Move to the directory `sarex-toolset/mapping-rule-builder`. Run `npm run dev` to run the server. Then, you can open the webpage at `http://localhost:5173` using your own browser.
 
-![new-window](./1.png)
+![new-window](img/1.png)
