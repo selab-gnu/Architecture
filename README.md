@@ -49,8 +49,8 @@ $HOME/.sarex
 
 ```
 {
-  "db_url": "http://localhost:27017",
-  "project_id": ""
+  "db_url": "mongodb://localhost:27017/default_db",
+  "project_id": "..."
 }
 
 ```
@@ -83,3 +83,57 @@ Then, you can run the mapping rule builder by the below command:
 npm run dev
 ```
 
+## Guideline
+
+### Prerequisite: Launching the CBSAR database
+
+First, you need to launch a mongoDB, which is the CBSAR Database. You can launch a mongoDB using Docker very quickly. Run the below command. (Of course, you need to install Docker Desktop at first.)
+
+```
+docker run -d -p 27017:27017 --name cbsar_database mongo:latest
+```
+
+Now, a mongoDB instance is running at port 27017. Then, you can run `sarex` command to setup DB url. (From now, we suppose that the `sarex` binary is located in $PATH)
+
+```
+sarex set-db mongodb://localhost:27017/default_db
+```
+
+Then, you need to create a new project for this reconstruction. Run the below command.
+
+```
+sarex set-project --name bss
+```
+
+You can now see the configuration file in `$HOME/.sarex/config.json` file.
+
+```
+cat ~/.sarex/config.json
+{"db_url":"mongodb://localhost:27017/default_db","project_id":"66faa49397b7c1f5a12325ef"}
+```
+
+For reference, the project_id value is an ID assigned by MongoDB.
+
+### [S1] Extract call relations
+
+You can extract call relations using the command below. All extracted call relations are automatically saved in the CBSAR Database.
+
+Let’s take a look at the command below. The `--root-path` option specifies the directory of the target project. For Java, this refers to the directory where the project’s compiled `.class` files are located, while for Go or JavaScript, it refers to the root directory of the project.
+
+The `--sources` option provides the necessary information to derive call relations to external libraries in the target system. For Java, you should provide the package names, separated by commas if there are multiple. If a package name is structured like edu.kaist.App, the separator should be replaced with `/` instead of `.`.
+
+In this case, the target project is located at `~/Workspace/research/target_systems/bss` directory and its compiled class files are located in the sub-directory `bin`.
+
+Also, packages of this target project are `common`, `event,` `eventbus`, and `subscriber`.
+
+```
+sarex dr --root-path ~/Workspace/research/target_systems/bss/bin --lang java --sources common,event,eventbus,subscriber
+```
+
+Now, call relations are saved in the CBSAR Database. If you use [MongoDB Compass](https://www.mongodb.com/products/tools/compass), you can see the content of the mongoDB
+
+### [S2] Define mapping rules
+
+Move to the directory `sarex-toolset/mapping-rule-builder`. Run `npm run dev` to run the server. Then, you can open the webpage at `http://localhost:5173` using your own browser.
+
+![new-window](./1.png)
