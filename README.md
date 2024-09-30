@@ -136,4 +136,44 @@ Now, call relations are saved in the CBSAR Database. If you use [MongoDB Compass
 
 Move to the directory `sarex-toolset/mapping-rule-builder`. Run `npm run dev` to run the server. Then, you can open the webpage at `http://localhost:5173` using your own browser.
 
+When you open the website at `http://localhost:5173`, you can see the window like the below screenshot.
+
 ![new-window](img/1.png)
+
+At the top of the leftmost column, there is the database icon, which is the right of the label "Projects". If you click that icon, you can configure the connection url of CBSAR Database.
+
+![configure](img/2.png)
+
+Then, now you can see the project in the Projects column. By clicking the project, you can see the new form to insert a mapping rule on the rightmost column.
+
+![new-form](img/3.png)
+
+If you click the input form of "Procedure", the list of call relations are displayed. This list is sorted along with the name of external libraries. So, you can easily find external libraries.
+
+![libraries](img/4.png)
+
+After you select a call relation, then the caller of this call relation is automatically selected as a procedure, which is *Proc* of a connector mapping rule.
+
+![proc](img/5.png)
+
+If you type all fields and click the "create" button, the new mapping rule appears on the middle column and this mapping rule is saved in CBSAR Database.
+
+### [S5] Recover connector instances
+
+Run the below command, you can extract *Connector Instances* from the execution traces. This command uses connector mapping rules in CBSAR Database.
+
+```
+sarex ci --execution-traces /path/to/exectuion_traces.log --output-file /path/to/cis.json
+```
+
+The CIs are not saved in the CBSAR Database.
+
+### [S6] Construct an execution view model
+
+Run the below command, you can construct an execution view model from connector instances. Supported formats are `dot`, `png`, and `json`.
+
+```
+sarex --ci-file /path/to/cis.json --output-file /path/to/model.dot --format dot
+```
+
+The extracted model is also not saved in the CBSAR Database.
