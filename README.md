@@ -1,4 +1,4 @@
-## _Architecture view reconstruction by identifying mapping rules for connectors"_ 
+## _Architecture view reconstruction by identifying mapping rules for connectors_ 
 
 # Directory Structure
 
