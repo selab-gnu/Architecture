@@ -1,4 +1,4 @@
-## Ahn, Hwi, Sungwon Kang, and Seonah Lee. "Reconstruction of an execution architecture view by identifying mapping rules for connectors." Journal of Systems and Software 220 (2025): 112268.
+## <font color="green">Ahn, Hwi, Sungwon Kang, and Seonah Lee. "Architecture view reconstruction by identifying mapping rules for connectors" Journal of Systems and Software 220 (2025): 112268.</font>
 
 # Directory Structure
 
