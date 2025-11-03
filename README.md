@@ -1,4 +1,4 @@
-[<span style="color:green">## Ahn, Hwi, Sungwon Kang, and Seonah Lee. "Architecture view reconstruction by identifying mapping rules for connectors" Journal of Systems and Software 220 (2025) </span>]  
+## _Ahn, Hwi, Sungwon Kang, and Seonah Lee. "Architecture view reconstruction by identifying mapping rules for connectors" Journal of Systems and Software 220 (2025)_ 
 
 # Directory Structure
 
