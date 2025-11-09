@@ -1,4 +1,11 @@
-## _Architecture view reconstruction by identifying mapping rules for connectors_ 
+## _Ahn, H., Kang, S., & Lee, S. (2025). Reconstruction of an execution architecture view by identifying mapping rules for connectors. Journal of Systems and Software, 220, 112268._ 
+
+## Abstract
+This study addresses the challenge that the execution architecture view—which represents the runtime structure of a software system—is often missing from software documentation and design. Such a view is essential for analyzing aspects like concurrency and performance, yet current reconstruction methods rely heavily on domain expertise or are limited to specific architectural styles.
+
+To overcome these limitations, the paper proposes a systematic approach for reconstructing execution architecture views without requiring prior knowledge of components or connectors. The approach defines a set of candidate connectors for the execution view and establishes mapping rules from source code elements to these connectors, enabling developers to reconstruct the runtime architecture effectively.
+
+The method was evaluated using three real-world software systems. The results demonstrated its practicality, achieving F1-scores above 86% while requiring less than 13.9 person-hours on average to complete the reconstruction process.
 
 # Directory Structure
 
